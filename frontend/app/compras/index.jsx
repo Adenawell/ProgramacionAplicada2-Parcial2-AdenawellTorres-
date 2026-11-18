@@ -41,8 +41,8 @@ export default function MisComprasScreen() {
                                 : `Vehiculo ID: ${item.vehiculoId}`}
                         </Text>
                         <Text>Monto: ${item.monto}</Text>
-                        <Text>Metodo de pago: {item.metodoPago}</Text>
-                        <Text>Fecha: {item.fecha || item.createdAt}</Text>
+                        <Text>Metodo de pago: {item.metodoPago}</Text> 
+                        <Text>Fecha: {item.fecha}</Text>
                     </View>
                 )}
             />
